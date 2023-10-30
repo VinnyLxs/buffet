@@ -16,5 +16,10 @@ namespace appalgumacoisabuffet.View
         {
             InitializeComponent();
         }
+
+        private void PDVTela_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
