@@ -10,3 +10,4 @@ C:\Users\vinicius.ocosta3\source\repos\appalgumacoisabuffet\appalgumacoisabuffet
 C:\Users\vinicius.ocosta3\source\repos\appalgumacoisabuffet\appalgumacoisabuffet\obj\Debug\appalgumacoisabuffet.View.LoginTela.resources
 C:\Users\vinicius.ocosta3\source\repos\appalgumacoisabuffet\appalgumacoisabuffet\obj\Debug\appalgumacoisabuffet.View.PDVTela.resources
 C:\Users\vinicius.ocosta3\source\repos\appalgumacoisabuffet\appalgumacoisabuffet\obj\Debug\appalgumacoisabuffet.View.MenuTela.resources
+C:\Users\vinicius.ocosta3\source\repos\appalgumacoisabuffet\appalgumacoisabuffet\obj\Debug\appalgumacoisabuffet.View.fecharTela.resources

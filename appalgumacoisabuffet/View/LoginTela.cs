@@ -26,19 +26,23 @@ namespace appalgumacoisabuffet.View
 
         private void Sair_Click(object sender, EventArgs e)
         {
+            //fechar aplicação
             Application.Exit();
         }
 
         private void Acessar_Click(object sender, EventArgs e)
         {
+            // variavel do tipo texto que recebe da ferramenta textBox
             string usuario = txBox_Usuario.Text;
             string senha = txBox_senha.Text;
 
-            if(usuario == "admin" && senha == "123") 
+            // o algoritimo para verificar as credenciais e permitir o acesso
+            if (usuario == "admin" && senha == "123")
             {
-                this.Visible = false;
+                this.Hide();
                 MenuTela Menu = new MenuTela();
-                Menu.ShowDialog();
+                Menu.FormClosed += (s, args) => this.Close();
+                Menu.Show();
             }
             else
             {
